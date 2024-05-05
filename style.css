@@ -1,0 +1,33 @@
+.form-check-input[type="checkbox"] {
+  border-radius: 50% !important;
+  margin-right: 6px;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+label.checked {
+  text-decoration: line-through;
+}
+
+.filters span {
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 1, 1);
+}
+.filters span:hover {
+  color: #eae6ee;
+  display: inline-block;
+  height: 100%;
+  background: rgb(77 80 77);
+  border-radius: 10px;
+}
+
+.filters span.active {
+  color: #eae6ee;
+  display: inline-block;
+  height: 100%;
+  background: rgb(77 80 77);
+  border-radius: 10px;
+}
